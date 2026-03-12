@@ -493,6 +493,14 @@ You can control how the VPC is displayed when zoomed out using the available opt
 
 You can also choose to |checkbox| :guilabel:`Show tile labels` to display the tile names and set the label format.
 
+To control how QGIS switches from overview rendering to subindex rendering, you can
+select these possible options:
+
+* :guilabel:`Later`: renders the overview longer. Detailed sub indexes are loaded only when zooming in further.
+* :guilabel:`Normal`: keeps the default behavior
+* :guilabel:`Earlier`: loads detailed sub indexes sooner, at wider map extents.
+* :guilabel:`Much earlier`: renders subindexes much sooner, even when not heavily zoomed in.
+
 Layer Rendering
 ...............
 
