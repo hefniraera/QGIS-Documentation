@@ -1696,7 +1696,7 @@ Membership values range from 0 to 1.
 In the fuzzified raster, a value of 0 implies no membership of the
 defined fuzzy set, whereas a value of 1 means full membership.
 The small membership function is defined as :math:`\mu(x)=1/({1+{(x/f_2)}^{f_1}})`,
-where *f1* is the spread and *f2* the midpoint.
+where *f1* is the spread and *f2* the midpoint. Trial.
 
 .. figure:: img/smallmembershipimage.png
   :align: center
