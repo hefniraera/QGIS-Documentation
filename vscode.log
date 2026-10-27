@@ -1,0 +1,12 @@
+Warning: 'ozone-platform-hint' is not in the list of known options, but still passed to Electron/Chromium.
+Warning: 'enable-features' is not in the list of known options, but still passed to Electron/Chromium.
+Warning: 'enable-wayland-ime' is not in the list of known options, but still passed to Electron/Chromium.
+Installing extensions...
+Extension 'ms-python.python@2025.6.1' is already installed.
+Warning: 'ozone-platform-hint' is not in the list of known options, but still passed to Electron/Chromium.
+Warning: 'enable-features' is not in the list of known options, but still passed to Electron/Chromium.
+Warning: 'enable-wayland-ime' is not in the list of known options, but still passed to Electron/Chromium.
+Installing extensions...
+Extension 'lextudio.iis@1.0.15' not found.
+Make sure you use the full extension ID, including the publisher, e.g.: ms-dotnettools.csharp
+Failed Installing Extensions: lextudio.iis
