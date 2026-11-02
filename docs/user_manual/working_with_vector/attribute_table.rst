@@ -99,8 +99,10 @@ following functionality:
    "|editTable|", "Organize columns", "Show/hide fields from the attribute table"
    "|calculateField|", "Open field calculator", "Update field for many features in a row", ":kbd:`Ctrl+I`"
    "|conditionalFormatting|", "Conditional formatting", "Enable table formatting"
+   "|helpContents|", "Help", "Opens the online help for the attribute table"
    "|dock|", "Dock attribute table", "Allows to dock/undock the attribute table"
    "|actionRun|", "Actions", "Lists the actions related to the layer"
+
 
 .. [1] Press and hold to select whether to add the feature via the attribute table or form.
 
@@ -856,6 +858,8 @@ Other information about the feature follows:
 .. |handleStoreFilterExpressionChecked| image:: /static/common/mActionHandleStoreFilterExpressionChecked.png
    :width: 1.5em
 .. |handleStoreFilterExpressionUnchecked| image:: /static/common/mActionHandleStoreFilterExpressionUnchecked.png
+   :width: 1.5em
+.. |helpContents| image:: /static/common/mActionHelpContents.png
    :width: 1.5em
 .. |highlightFeature| image:: /static/common/mActionHighlightFeature.png
    :width: 1.5em
