@@ -20,22 +20,45 @@ Using QGIS Core Plugins
 Below is the list of Core plugins provided with QGIS.
 They are not necessarily enabled by default.
 
-======================  ============================  ======================================================  ===============================
-Icon                    Plugin                        Description                                             Manual Reference
-======================  ============================  ======================================================  ===============================
-|geometryChecker|       Geometry Checker              Check and repair errors in vector geometries            :ref:`geometry_checker`
-|grassTools|            GRASS 7                       GRASS functionality                                     :ref:`sec_grass`
-|grassLogo|             GRASS GIS provider            GRASS GIS Processing functionality                      :ref:`sec_grass`
-|metasearch|            MetaSearch Catalog Client     Interact with metadata catalog services (CSW)           :ref:`metasearch`
-|offlineEditingCopy|    Offline Editing               Offline editing and synchronizing with database         :ref:`offlinedit`
-|geoprocessing|         Processing                    Spatial data processing framework                       :ref:`label_processing`
-|topologyChecker|       Topology Checker              Find topological errors in vector layers                :ref:`topology`
-======================  ============================  ======================================================  ===============================
+.. list-table:: QGIS Core Plugins
+   :header-rows: 1
+   :widths: 30 40 30
+   :class: longtable
+
+   * - Plugin
+     - Description
+     - Manual Reference
+   * - |geometryChecker| :guilabel:`Geometry Checker`
+     - Check and repair errors in vector geometries
+     - :ref:`geometry_checker`
+   * - |grassTools| :guilabel:`GRASS 7`
+     - GRASS functionality
+     - :ref:`sec_grass`
+   * - |grassLogo| :guilabel:`GRASS GIS provider`
+     - GRASS GIS Processing functionality
+     - :ref:`sec_grass`
+   * - |metasearch| :guilabel:`MetaSearch Catalog Client`
+     - Interact with metadata catalog services (CSW)
+     - :ref:`metasearch`
+   * - |offlineEditingCopy| :guilabel:`Offline Editing`
+     - Offline editing and synchronizing with database
+     - :ref:`offlinedit`
+   * - |geoprocessing| :guilabel:`Processing`
+     - Spatial data processing framework
+     - :ref:`label_processing`
+   * - |topologyChecker| :guilabel:`Topology Checker`
+     - Find topological errors in vector layers
+     - :ref:`topology`
 
 .. note::
 
-   To use the Core Plugins |grassTools| GRASS 7, |grassLogo| GRASS GIS provider,
-   they have to be configured. Information can be found :ref:`here <processing.results>`.
+   To use the Core Plugins |grassTools| :guilabel:`GRASS 8`
+   and |grassLogo| :guilabel:`GRASS Processing provider`,
+   `GRASS`_ needs to be installed and configured.
+   Information can be found :ref:`here <grass_configure>`.
+
+
+.. _`GRASS`: https://grass.osgeo.org/
 
 
 .. Substitutions definitions - AVOID EDITING PAST THIS LINE
