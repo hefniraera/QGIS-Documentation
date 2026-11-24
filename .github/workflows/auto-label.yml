@@ -13,11 +13,11 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       BODY: "${{ github.event.issue.body }}"
-      MILESTONE: 20 # See https://api.github.com/repos/qgis/QGIS-Documentation/milestones
+      MILESTONE: 21 # See https://api.github.com/repos/qgis/QGIS-Documentation/milestones
     runs-on: ubuntu-latest
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@dc2769abcc0fcfbadfc1df54081c1608579ef6b2 # v2.22.2
+        uses: step-security/harden-runner@1d88384fd173af6ecb012dfd0264a306b711241a # v2.22.4
         with:
           disable-sudo-and-containers: true
           egress-policy: block
